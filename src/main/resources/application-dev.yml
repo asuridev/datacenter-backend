@@ -6,7 +6,7 @@ jwt:
 spring:
   sql:
     init:
-      mode: always   # never # always
+      mode: never   # never # always
   jpa:
     show-sql: true
     defer-datasource-initialization: true
